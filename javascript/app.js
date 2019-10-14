@@ -124,7 +124,7 @@ ArrCookie.push(printTotal);
 
 
 var TokyoContent = document.createElement('p');
-TokyoContent.textContent = "Seattie";
+TokyoContent.textContent = "Tokyo";
 var area = document.getElementById('content-area');
 area.appendChild(TokyoContent);
 var ul = document.createElement('ul');
@@ -199,7 +199,7 @@ ArrCookie.push(printTotal);
 
 
 var DubaiContent = document.createElement('p');
-DubaiContent.textContent = "Seattie";
+DubaiContent.textContent = "Dubai";
 var area = document.getElementById('content-area');
 area.appendChild(DubaiContent);
 var ul = document.createElement('ul');
@@ -278,7 +278,7 @@ ArrCookie.push(printTotal);
 
 
 var ParisContent = document.createElement('p');
-ParisContent.textContent = "Seattie";
+ParisContent.textContent = "Paris";
 var area = document.getElementById('content-area');
 area.appendChild(ParisContent);
 var ul = document.createElement('ul');
@@ -361,7 +361,7 @@ ArrCookie.push(printTotal);
 
 
 var LimaContent = document.createElement('p');
-LimaContent.textContent = "Seattie";
+LimaContent.textContent = "lima";
 var area = document.getElementById('content-area');
 area.appendChild(LimaContent);
 var ul = document.createElement('ul');
