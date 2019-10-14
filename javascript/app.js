@@ -142,7 +142,7 @@ function createTableBody() {
 }
 
 function createTableFooter() {
-  var tfootElCheck = document.getElementById("tbl-foot");
+  var tfootElCheck = document.getElementById("s");
 
   if (tfootElCheck) {
     tfootElCheck.remove();
@@ -152,7 +152,7 @@ function createTableFooter() {
   var tfootEl = document.createElement("tfoot");
   var trEl = document.createElement("tr");
 
-  tfootEl.id = "tbl-foot";
+  tfootEl.id = "s";
 
   var total2 = document.createElement("th");
   total2.textContent = "Total";
