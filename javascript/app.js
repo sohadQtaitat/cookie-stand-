@@ -1,7 +1,6 @@
 var ArrCookie = [];
 
 var sum=0;
-
 var Seattle = {
   minCustomersPerHour: 23,
   maxCustomersPerHour: 65,
@@ -10,11 +9,12 @@ var Seattle = {
 
   forEachHour: function (minCustomersPerHour, maxCustomersPerHour) {
     var range = maxCustomersPerHour - minCustomersPerHour;
-    var rand = (Math.random() * range )+ minCustomersPerHour;
+    console.log(range)
+    var rand = (Math.random() * range) +minCustomersPerHour;
     var final = Math.ceil(rand);
     return (final);
   }
-};
+}
 
 
 
@@ -24,14 +24,14 @@ for( var i = 6; i < 12; i++)
   var cookiesPerHour = Math.ceil(set);
   var Print =i +'am:'+ cookiesPerHour + ' cookies';
   sum = sum + cookiesPerHour;
-  ArrCookie.push(print);
+  ArrCookie.push(i + 'am: '+cookiesPerHour +' cookies');
 }
 
 if (i == 12) {
   var cookiesPerHour = Math.ceil(Seattle.forEachHour(23,65)) * Seattle.averagePerCustomer;
   var Print =i +'pm:'+ cookiesPerHour + ' cookies';
   sum = sum + cookiesPerHour;
-  ArrCookie.push(print);
+  ArrCookie.push(i + 'pm: '+cookiesPerHour +' cookies');
 }
 
 
@@ -39,7 +39,7 @@ for (var i = 1; i < 7; i++) {
  var cookiesPerHour = Math.ceil(Seattle.forEachHour(23,65)) * Seattle.averagePerCustomer;
   var Print =i +'am:'+ cookiesPerHour + ' cookies';
   sum = sum + cookiesPerHour;
-  ArrCookie.push(print);
+  ArrCookie.push(i + 'am: '+cookiesPerHour +' cookies');
 }
 
 var printTotal ='Total:'+ sum + ' cookies';
@@ -98,14 +98,14 @@ for( var i = 6; i < 12; i++)
   var cookiesPerHour = Math.ceil(set);
   var Print =i +'am:'+ cookiesPerHour + ' cookies';
   sum = sum + cookiesPerHour;
-  ArrCookie.push(print);
+  ArrCookie.push(i + 'am: '+cookiesPerHour +' cookies');
 }
 
 if (i == 12) {
   var cookiesPerHour = Math.ceil(Tokyo.forEachHour(3,24)) * Tokyo.averagePerCustomer;
   var Print =i +'pm:'+ cookiesPerHour + ' cookies';
   sum = sum + cookiesPerHour;
-  ArrCookie.push(print);
+  ArrCookie.push(i + 'pm: '+cookiesPerHour +' cookies');
 }
 
 
@@ -113,7 +113,7 @@ for (var i = 1; i < 7; i++) {
  var cookiesPerHour = Math.ceil(Tokyo.forEachHour(3,24)) * Tokyo.averagePerCustomer;
   var Print =i +'am:'+ cookiesPerHour + ' cookies';
   sum = sum + cookiesPerHour;
-  ArrCookie.push(print);
+  ArrCookie.push(i + 'am: '+cookiesPerHour +' cookies');
 }
 
 var printTotal ='Total:'+ sum + ' cookies';
@@ -173,14 +173,14 @@ for( var i = 6; i < 12; i++)
   var cookiesPerHour = Math.ceil(set);
   var Print =i +'am:'+ cookiesPerHour + ' cookies';
   sum = sum + cookiesPerHour;
-  ArrCookie.push(print);
+  ArrCookie.push(i + 'am: '+cookiesPerHour +' cookies');
 }
 
 if (i == 12) {
   var cookiesPerHour = Math.ceil(Dubai.forEachHour(11,38)) * Dubai.averagePerCustomer;
   var Print =i +'pm:'+ cookiesPerHour + ' cookies';
   sum = sum + cookiesPerHour;
-  ArrCookie.push(print);
+  ArrCookie.push(Print);
 }
 
 
@@ -188,7 +188,7 @@ for (var i = 1; i < 7; i++) {
  var cookiesPerHour = Math.ceil(Dubai.forEachHour(11,38)) * Dubai.averagePerCustomer;
   var Print =i +'am:'+ cookiesPerHour + ' cookies';
   sum = sum + cookiesPerHour;
-  ArrCookie.push(print);
+  ArrCookie.push(Print);
 }
 
 var printTotal ='Total:'+ sum + ' cookies';
@@ -252,14 +252,14 @@ for( var i = 6; i < 12; i++)
   var cookiesPerHour = Math.ceil(set);
   var Print =i +'am:'+ cookiesPerHour + ' cookies';
   sum = sum + cookiesPerHour;
-  ArrCookie.push(print);
+  ArrCookie.push(Print);
 }
 
 if (i == 12) {
   var cookiesPerHour = Math.ceil(Paris.forEachHour(20,38)) * Paris.averagePerCustomer;
   var Print =i +'pm:'+ cookiesPerHour + ' cookies';
   sum = sum + cookiesPerHour;
-  ArrCookie.push(print);
+  ArrCookie.push(Print);
 }
 
 
@@ -267,7 +267,7 @@ for (var i = 1; i < 7; i++) {
  var cookiesPerHour = Math.ceil(Paris.forEachHour(20,38)) * Paris.averagePerCustomer;
   var Print =i +'am:'+ cookiesPerHour + ' cookies';
   sum = sum + cookiesPerHour;
-  ArrCookie.push(print);
+  ArrCookie.push(Print);
 }
 
 var printTotal ='Total:'+ sum + ' cookies';
@@ -335,14 +335,14 @@ for( var i = 6; i < 12; i++)
   var cookiesPerHour = Math.ceil(set);
   var Print =i +'am:'+ cookiesPerHour + ' cookies';
   sum = sum + cookiesPerHour;
-  ArrCookie.push(print);
+  ArrCookie.push(Print);
 }
 
 if (i == 12) {
   var cookiesPerHour = Math.ceil(Lima.forEachHour(2,16)) * Lima.averagePerCustomer;
   var Print =i +'pm:'+ cookiesPerHour + ' cookies';
   sum = sum + cookiesPerHour;
-  ArrCookie.push(print);
+  ArrCookie.push(Print);
 }
 
 
@@ -350,7 +350,7 @@ for (var i = 1; i < 7; i++) {
  var cookiesPerHour = Math.ceil(Lima.forEachHour(2,16)) * Lima.averagePerCustomer;
   var Print =i +'am:'+ cookiesPerHour + ' cookies';
   sum = sum + cookiesPerHour;
-  ArrCookie.push(print);
+  ArrCookie.push(Print);
 }
 
 var printTotal ='Total:'+ sum + ' cookies';
